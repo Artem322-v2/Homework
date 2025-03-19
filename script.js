@@ -1,13 +1,13 @@
-let cityName = "Ижевск"; // Присвоил название города
- 
-let temperature = "2°С"; // Присвоил значение температуры
+let price = 100
 
-console.log(cityName, "-", temperature); // Выводит название города и температуру
+console.log(price)
+
+price = 150 // Когда мы используем let, мы ее можем переопределить когда const - нельзя.
+
+console.log(price)
+
+// Повторно использовать let price не можем т.к.такой идентификатор уже используется
 
 
-let a = 30; // Присвоил значение a,b и c
-let b = 11;
-let c = 15;
 
-const result = a + b / c; // Выполнил выражение
-console.log(result); // Вывел результат в консоль
+
