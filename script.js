@@ -1,13 +1,11 @@
-let price = 100
+let temp = 1
 
-console.log(price)
+console.log(typeof temp)
 
-price = 150 // Когда мы используем let, мы ее можем переопределить когда const - нельзя.
+let plan = "Privet"
 
-console.log(price)
+console.log(typeof plan)
 
-// Повторно использовать let price не можем т.к.такой идентификатор уже используется
+let question = true
 
-
-
-
+console.log(typeof question)
