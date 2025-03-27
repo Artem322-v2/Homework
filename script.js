@@ -1,11 +1,13 @@
-let temp = 1
-
-console.log(typeof temp)
-
-let plan = "Privet"
-
-console.log(typeof plan)
-
-let question = true
-
-console.log(typeof question)
+let cityName = "Ижевск"; // Присвоил название города
+  
+ let temperature = "2°С"; // Присвоил значение температуры
+ 
+ console.log(cityName, "-", temperature); // Выводит название города и температуру
+ 
+ 
+ let a = 30; // Присвоил значение a,b и c
+ let b = 11;
+ let c = 15;
+ 
+ const result = a + b / c; // Выполнил выражение
+ console.log(result); // Вывел результат в консоль
